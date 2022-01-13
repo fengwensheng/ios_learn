@@ -4,7 +4,7 @@ iOS learning notes demo.
 
 ## learn_0
 
-Remove ***Scene*** stuff:
+Remove `Scene` stuff:
 
 1. info.plist
 2. AppDelegate .m
@@ -20,9 +20,17 @@ There are *3* ways for ios ui development.
 
 ## learn_1
 
-Remove Storyboard stuff:
+Remove `Storyboard` stuff:
 
 1. Targets -> Main Interface
 2. rm Main.storyboard
 3. add Cocoa Touch Class(ViewController,Xib)
 4. ViewController/Nib attach to UI in AppDelegate.m
+
+## learn_2
+
+Remove `Xib` stuff. 
+
+Write ui by hand directly in ViewController's viewDidLoad().
+
+`keyword` **Window** , **KeyWindow** , **ViewController/View** , **SubView**,**frame**
