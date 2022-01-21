@@ -40,3 +40,15 @@ Write ui by hand directly in ViewController's viewDidLoad().
 Transition between multiple ViewController.
 
 Using `Present`.
+
+## learn_4
+
+Using `Containter`(ViewController).
+
+Child vs. Parent.
+
+xxxMoveToParentxxx().
+
+There's only one xxxMovexxx method and Using the `nil` parameter to stand for `REMOVE`.
+
+will(system auto) -> did(MOVE: contoller) -> will(REMVOE: nil) -> did((system auto))
