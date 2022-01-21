@@ -34,3 +34,9 @@ Remove `Xib` stuff.
 Write ui by hand directly in ViewController's viewDidLoad().
 
 `keyword` **Window** , **KeyWindow** , **ViewController/View** , **SubView**,**frame**
+
+## learn_3 
+
+Transition between multiple ViewController.
+
+Using `Present`.

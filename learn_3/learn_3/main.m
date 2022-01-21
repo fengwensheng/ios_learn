@@ -1,13 +1,12 @@
 //
 //  main.m
-//  learn_2
+//  learn_3
 //
-//  Created by Vincent Feng on 2022/1/13.
+//  Created by Vincent Feng on 2022/1/21.
 //
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
