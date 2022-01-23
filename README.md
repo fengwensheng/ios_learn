@@ -52,3 +52,21 @@ xxxMoveToParentxxx().
 There's only one xxxMovexxx method and Using the `nil` parameter to stand for `REMOVE`.
 
 will(system auto) -> did(MOVE: contoller) -> will(REMVOE: nil) -> did((system auto))
+
+## learn_4
+
+App File System, `Sandbox`.
+
+Sandbox = `Bundle` Container + `Data` Container + `iCloud` Container.
+
+---
+
+Bundle = `mainBundle` + OtherBundles.
+
+Data = `Documents` + `Library` + `Temp`. -> home
+
+---
+
+`Library` = Caches + Preferences
+`mainBundle` -> MyApp.app.
+
