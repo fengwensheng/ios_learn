@@ -4,19 +4,20 @@ iOS learning notes demo.
 
 ## learn_0
 
-Remove `Scene` stuff:
-
-1. info.plist
-2. AppDelegate .m
-3. AppDelegate .h +window 
-
----
-
-There are *3* ways for ios ui development.
-
-* Storyboard (/Scene) (current project)
-* Xib/Nib
-* By-hand, like Android
+1. Remove `Scene` stuff:
+   
+   * info.plist
+   
+   * AppDelegate .m
+   
+   * AppDelegate .h +window 
+   
+   ---
+   
+2. There are *3* ways for ios ui development.
+   * Storyboard (/Scene) (current project)
+   * Xib/Nib
+   * By-hand, like Android
 
 ## learn_1
 
@@ -33,7 +34,7 @@ Remove `Xib` stuff.
 
 Write ui by hand directly in ViewController's viewDidLoad().
 
-`keyword` **Window** , **KeyWindow** , **ViewController/View** , **SubView**,**frame**
+`keyword` ***Window*** , ***KeyWindow*** , ***ViewController/View*** , ***SubView***, ***frame***
 
 ## learn_3 
 
@@ -51,7 +52,7 @@ xxxMoveToParentxxx().
 
 There's only one xxxMovexxx method and Using the `nil` parameter to stand for `REMOVE`.
 
-will(system auto) -> did(MOVE: contoller) -> will(REMVOE: nil) -> did((system auto))
+will(system auto) -> did(MOVE: contoller) -> will(REMVOE: nil) -> did(system auto)
 
 ## learn_5
 
@@ -75,5 +76,19 @@ Data = `Documents` + `Library` + `Temp`. -> home
 
 Device Information.
 
-`Aspects`: **Name** , **Type **, **System **, **Battery **
+`Aspects`: **Name**, **Type**, **System**, **Battery**
+
+## learn_7
+
+1. **Open** External App.
+
+   `URL Scheme`: ***system***(eg. telephone), ***custom***(third-part app,like your app or Wechat)
+
+   None system scheme, custom, you need DECLARE the app you want query for.(`LSApplicationQueriesSchemes` array)
+
+   ---
+
+2. **Define** an app URL Scheme.
+
+   Target -> Info -> URL Type
 
