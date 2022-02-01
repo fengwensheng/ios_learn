@@ -91,4 +91,13 @@ Device Information.
 2. **Define** an app URL Scheme.
 
    Target -> Info -> URL Type
+   
+   callback in the **application:openURL:options:** method in **app delegate**.
+## learn_8
+
+Audio.
+
+1. **System** Sound: `AudioToolBox`.
+2. **Local** audio: `AVAudioPlayer`.
+3. **Network** audio: `AVPlayer`.
 
